@@ -1,3 +1,13 @@
+# Edit
+
+I've modified this to be a simple example of a re-frame based project
+which makes use of [NativeBase](https://nativebase.io/).
+
+This shows a working example of how to load custom fonts into Expo
+which is require in order for NativeBase.
+
+# Original README
+
 ```
 $ yarn
 $ shadow-cljs watch app
