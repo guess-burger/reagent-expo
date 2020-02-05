@@ -8,7 +8,7 @@
   (fn [cofx _]
     {:db (assoc (:db cofx) :loaded false
                            :clicks 0)
-     :load-fonts [{"Roboto_medium" (js/require "native-base/Fonts/Roboto_medium.ttf")}
+     :load-fonts [{"Roboto_medium" (js/require "../node_modules/native-base/Fonts/Roboto_medium.ttf")}
                   [:fonts-loaded]
                   [:fonts-failed]
                   ]}))
