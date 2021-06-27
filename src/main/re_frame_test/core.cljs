@@ -11,7 +11,7 @@
 (defn mount
   {:dev/after-load true}
   []
-  (expo/render-root (r/as-element [views/main-panel])))
+  (expo/render-root (r/as-element [views/root-comp])))
 
 (defn init []
   (rf/dispatch-sync [:initialize])

@@ -4,14 +4,12 @@
   "src/main"
   "src/test"]
 
- :dependencies
- [[reagent "0.8.1"]
-  [re-frame "0.10.6"]]
+ :deps true
 
  :builds
  {:app
   {:target     :react-native
-   :init-fn    re-frame-test.core/init
+   :init-fn    re-frame-test.views/init
    :output-dir "app"
    :devtools   {:autoload true
                 :preloads [shadow.expo.keep-awake]}}}}
